@@ -1,0 +1,27 @@
+body {
+    background: #999999;
+   }
+   h1 {
+    font-size: 18pt; 
+    color: #FF0000;
+   }
+   p {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline
+   }
+   
+   title{
+    color: red;
+    text-align: center;
+    font-size: 50px;
+    }
+    .paragraph {
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 20px;
+    }
+   

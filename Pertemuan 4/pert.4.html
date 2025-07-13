@@ -1,0 +1,68 @@
+<! DOCTYPE HTML>
+<html>
+<head>
+ <title> Embedded Style Sheet </title>
+<style>
+body {
+ background: #999999;
+}
+h1 {
+ font-size: 18pt; 
+ color: #FF0000;
+}
+
+p {
+ color: red;
+ font-weight: bold;
+ text-decoration: underline
+}
+</style>
+</head>
+<body>
+<h1> HTML5 and CSS3 Web Plus Programmer's Mandatory Book </h1>
+<p> Jasakom Publisher </p>
+<p> Jakarta </p>
+</body>
+</html>
+
+<! DOCTYPE html>
+<html>
+<head>
+ <title> Internal CSS Example </title>
+ <! - internal css writing in the tag head ->
+ <style type = "text / css">
+ p {
+ font-family: serif;
+ line-height: 1.75em;
+ font-size: 18px;
+ }
+ i { 
+ font-family: sans;
+ color: orange;
+ }
+ </style>
+</head>
+
+<body>
+    <! - internal css writing in body tag ->
+    <style type = "text / css">
+    h2 { 
+    font-family: sans;
+    color: #333;
+    }
+    </style>
+    <h2> This is the title of the article </h2>
+   <p> This is the paragraph that contains the article content. This paragraph is for experimental purposes only. Attempts to demonstrate the <i> internal css </i>. As the name suggests, <i> inline CSS </i> is CSS code that is written directly in the HTML file. </p>
+   </body>
+   </html>
+
+<! DOCTYPE html>
+<html>
+<head>
+ <title> Inline CSS Example </title>
+</head>
+<body>
+ <h2 style = "color: red; font-family: sans"> This is the article title </h2>
+<p style = "color: maroon"> This is the paragraph that contains the contents of the article. This paragraph is for experimental purposes only. Attempts to demonstrate the <i> internal css </i>. As the name suggests, <i> inline CSS </i> is CSS code that is written directly in the HTML file. </p>
+</body>
+</html>
